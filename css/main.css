@@ -1,0 +1,46 @@
+*{
+    background-color: darkgrey;
+    color: black;
+    margin: 10px;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 420px auto;
+    grid-column-gap: 50px ;
+    text-align: justify;
+}
+
+.portada{
+    max-width: 110%;
+    margin: 10px
+}
+
+.navBar{
+    display: grid ;
+    font-size: 18px;
+}
+
+.navBar li:hover {
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.navBar ul{
+    list-style: none;
+
+}
+.navBar li{
+    display: inline;
+    float: right;
+}
+
+.Boton{
+    background-color: rgb(92, 92, 92);
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    text-align:end
+}
+.Boton:hover{
+    background-color: rgb(255, 255, 255);
+}
